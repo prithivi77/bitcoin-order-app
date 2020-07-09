@@ -6,9 +6,9 @@ dist: bionic
 sudo: required
 
 notifications:
-  email: prithivi.monish@gmail.com
+  email: 
     recipients:
-      - bunnyppl@gmail.com
+      - prithivi.monish@gmail.com
     on_success: always
     on_failure: always
 branches:
