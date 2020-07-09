@@ -6,7 +6,7 @@ dist: bionic
 sudo: required
 
 notifications:
-  email:
+  email: prithivi.monish@gmail.com
     recipients:
       - bunnyppl@gmail.com
     on_success: always
@@ -18,7 +18,7 @@ before_script:
   - npm install -g @angular/cli
   - npm install -g now
 script:
-  - ng build --prod --base-href https://kenken64.github.io/bitcoin-order-app/
+  - ng build --prod --base-href https://prithivi77.github.io/bitcoin-order-app/
 
   
 deploy:
